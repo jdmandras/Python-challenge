@@ -68,7 +68,7 @@ print(f"Greatest Decrease in Profits: {dec_date} (${str(great_dec)})")
 output = open("ANALYSIS.B/results.txt","w")
 line1 = "Financial Analysis"
 line2 = "---------------------"
-line3 = str(f"Total Months: + {str(months)}")
+line3 = str(f"Total Months: {str(months)}")
 line4 = str(f"Total: ${str(total)}")
 line5 = str(f"Average Change: ${str(round(avg_change,2))}")
 line6 = str(f"Greatest Increase in Profits: {inc_date} (${str(great_inc)})")
