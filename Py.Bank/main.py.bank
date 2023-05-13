@@ -1,0 +1,29 @@
+The total number of months included in the dataset
+
+The net total amount of "Profit/Losses" over the entire period
+
+The changes in "Profit/Losses" over the entire period, and then the average of those changes
+
+The greatest increase in profits (date and amount) over the entire period
+
+The greatest decrease in profits (date and amount) over the entire period
+
+
+#Results outlook
+#print("Financial Analysis")
+#print("------------------------------")
+#print("Total Months: " + str(months))
+#print("Total: " + str(total))
+#print("Average Change: " + str(avg_change))
+#print("Greatest Increase in Profits: " + month-00 ($$) )
+#print("Greatest Decrease in Profits: " + month-00 ($$) )
+
+#Import module
+#Create filepath across operating systems
+import os
+#module for reading CSV files
+import CSV
+
+csvpath = os.path.join('..', 'RESOURCES', 'budget_data.csv')
+
+with open(csvpath) as csvfile:
